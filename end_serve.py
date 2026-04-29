@@ -24,7 +24,7 @@ def handle_llm_query(req):
     last_PROMPT = req.query
     
     # 使用豆包大模型
-    MODEL = "ep-20250809144646-4tfsq"  # 豆包模型标识符
+    MODEL = ""  # 豆包模型标识符
     
     while True:
         # 访问豆包大模型API
