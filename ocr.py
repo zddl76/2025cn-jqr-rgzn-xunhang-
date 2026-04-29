@@ -89,7 +89,7 @@ def doubao_ocr_api(img_path):
 
         # 向豆包大模型发起请求
         completion = client.chat.completions.create(
-            model="ep-20250809144646-4tfsq",
+            model="",
             messages=[
                 {
                     "role": "user",
