@@ -82,7 +82,7 @@ def yi_vision_api(PROMPT='图片中有一个计算式，请计算一下结果并
     while True:
         # 向大模型发起请求
         completion = client.chat.completions.create(
-        model="ep-20250809144646-4tfsq",
+        model="",
         messages=[
             {
                 "role": "user",
